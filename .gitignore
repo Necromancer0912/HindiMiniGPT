@@ -1,0 +1,29 @@
+# Raw dataset (large, not code -- see README for the source)
+NLP_Dataset_2026/
+
+# Large generated artifacts (regenerable from the scripts/notebooks)
+outputs/checkpoints/
+outputs/splits/*.pt
+outputs/tokenizer/sp_train_text.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary / scratch files created during development
+outputs/checkpoints/_cv_*.pt
+outputs/logs/_cv_*.csv

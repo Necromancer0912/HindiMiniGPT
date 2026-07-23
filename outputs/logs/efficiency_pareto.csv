@@ -1,0 +1,6 @@
+variant,device,val_ppl,size_mb,latency_per_token_ms,throughput_tok_s,peak_vram_mb
+teacher_fp32,cuda,29.301,116.18,4.438,225.346,119.498
+teacher_fp16,cuda,29.303,58.09,3.771,265.189,173.639
+teacher_int8_cpu,cpu,28.327,36.91,6.23,160.507,
+student_distilled,cuda,82.804,19.04,1.86,537.738,202.69
+student_scratch,cuda,86.474,19.04,1.848,541.025,202.69

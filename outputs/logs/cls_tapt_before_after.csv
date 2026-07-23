@@ -1,0 +1,4 @@
+run,best_epoch,val_acc,val_macro_f1
+cls_frozen_wiki,2,0.3819,0.3554
+cls_frozen_tapt,19,0.5,0.4934
+cls_best_tapt,9,0.5208,0.5147

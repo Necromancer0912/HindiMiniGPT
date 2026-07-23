@@ -1,0 +1,11 @@
+# PyTorch: install separately with the CUDA index for your GPU, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+torch>=2.13.0
+sentencepiece>=0.2.0
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+tqdm>=4.66
+jupyter
+ipykernel
